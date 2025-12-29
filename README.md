@@ -6,28 +6,37 @@ This project aims to design and implement a blind speaker diarization system tha
 
 ```bash
 pip install numpy soundfile librosa tensorflow resemblyzer spectralcluster
+```
+## Run the Application
 
-Run the Application
+```bash
 python interface.py
 
-Input
+```
+## Input
 
+```bash
 Select an audio file in .wav format.
 
-System Functionality
+```
+## System Functionality
 
+```bash
 Predicts the number of speakers.
 
 Performs speaker diarization.
 
 Saves output files automatically.
 
-Output
+```
+## Output
 
+```bash
 separated/: audio segments per speaker
-
 concatenated/: full audio per speaker
+```
 
-Training Code
+## Training Code
 
+```bash
 Training_Model.py: trains the speaker-counting model
